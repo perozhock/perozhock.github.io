@@ -1,0 +1,282 @@
+@charset "utf-8"
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+
+
+html {height: 100%;}
+
+body {
+	width: 99%;
+	height: 93%;
+	color: #333;
+	background: #f7f7f7;
+	font-size: 1em;
+	font-family: "Segoe UI", sans-serif;
+	line-height: 135%; /* gh */
+}
+
+a {
+	color: #f48b8b;
+	text-decoration: none;
+	transition: all.6s ease;
+}
+
+a:hover {
+	color: #8b9ff5;
+	text-decoration: none;
+	transition: all.6s ease;
+}
+
+a:active {
+	color: #8ce4a6;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9;
+}
+
+hr {
+	display: block;
+	border: 0;
+	height: 1px;
+	border-top: 1px solid #ccc;
+	padding: 0;
+}
+
+.left {float: left}
+.clear {clear: both;}
+
+/* Selection block */
+
+::selection {background: #f58b8b; color: #fff}
+
+header, footer {
+	width: 97%;
+	background-color: #fff;
+	min-height: 20px;
+	float: left;
+}
+
+header {
+	border-bottom: 2px solid silver;
+	padding: 1%;
+	min-height: 15px;
+}
+
+#logo {
+	font-size: 2em;
+	font-family: Phenomena ExtraBold, Thin;
+}
+
+#contact {
+	font-size: 1.5em;
+	font-family: Phenomena light;
+	margin-left: 10px;
+}
+
+#copyr {
+	font-size: 1em;
+	font-family: Phenomena Thin;
+	padding-bottom: 2%;
+}
+
+#year {
+	float: right;
+	font-size: 1em;
+	font-family: Phenomena;
+	padding-bottom: 2%;
+}
+
+#kar img  {
+	max-height: 150px;
+	border-radius: 20px;
+	margin-left: 20px;
+}
+
+#kar a {
+	font-family: Phenomena Thin;
+	font-size: 1.5em;
+}
+
+input[type=text].field {
+	float: right;
+	border-radius: 3px;
+	border: 1px solid silver;
+	padding: 5px;
+	margin-left: 10px;
+}
+
+input[type=text].field:focus {
+	border: 2px solid #f58b8b;
+}
+
+#menu {
+	color: #666;
+	font-family: Phenomena;
+	font-size: 1.7em;
+}
+
+#menu hr {
+	width: 500px;
+	max-width: 100%;
+	margin-top: 5px;
+	margin-bottom: 10px;
+
+}
+
+#menuHrefs a {
+	padding: 5px;
+	border-radius: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	font-family: Phenomena;
+}
+
+#menuHrefs a:hover {background-color: #ececec}
+
+/* Основы */
+
+h1 {
+	font-family: Phenomena Light;
+	font-size: 1.5em;
+	margin-left: 10px;
+}
+
+h3 {
+	font-family: Phenomena ExtraBold;
+	font-size: 2em;
+	margin-left: 10px;
+}
+
+#wrapper {
+	float: left;
+	width: 100%;
+	margin-top: 0px;
+}
+
+#articles {
+	float: left;
+	width: 80%;
+	margin-left: 10%;
+}
+
+article {
+	float: left;
+	width: 31.3%;
+	border: 1px solid silver;
+	box-sizing: border-box;
+	border-radius: 3px;
+	background-color: #fafafa;
+	margin-right: 2%;
+	min-height: 400px;
+	font-family: Phenomena Thin;
+}
+
+article img {
+	min-width: 100%;
+	max-height: 300px;
+}
+
+article h2 {
+	margin-left: 5%;
+	font-size: 2em;
+}
+
+#pik {
+	width: 30%;
+	display: block;
+	position: absolute;
+	font-family: Phenomena;
+}
+
+/*кулькулятор */
+
+.button {
+	width: 50px;
+	height: 50px;
+	font-size: 1.5em;
+	margin: 2px;
+	padding: 5px;
+	background-color: #fafafa;
+	border: 1px;
+	border-radius: 5px;
+	cursor: pointer;
+	outline: none;
+	transition: all.9s ease;
+	font-family: Phenomena light;
+}
+
+.button:hover {
+	background-color: #ececec;
+	transition: all.2s ease;
+	color: #8b9ff5;
+}
+
+#eq:hover {
+	background-color:#8b9ff5;
+	color: #ffffff	;
+}
+
+#form {
+	position: absolute;
+}
+
+#textview {
+	width: 208px;
+	margin: 5px;
+	background-color: #fafafa;
+	border: 0.5px solid;
+	border-color: #ececec;
+	border-radius: 5px;
+	text-align: right;
+	font-size: 1.5em;
+	padding: 5px;
+	font-family: Phenomena light;
+}
+
+#calcul {
+
+	width: 208px;
+	margin: 1px;
+	margin-top: 50px;
+	background-color: #fafafa;
+	border: 0px;
+	border: 0.5px solid;
+	border-color: #ececec;
+	border-radius: 5px;
+	text-align: right;
+	font-size: 1em;
+	padding: 5px;
+	font-family: Phenomena light;
+}
+
+
+
+/*Футер стили */
+
+footer {
+	padding: 1%;
+	border-top: 2px solid silver;
+	margin-top: 10px;
+	padding-bottom: 2%;
+	min-height: 10px;
+}
+
+#page-wrap:after {
+	content: "";
+	display: block;
+}
+
+footer, page-wrap:after {height: 15px}
+
+#page-wrap {
+	min-height: 92%;
+	margin-bottom: 0px;
+
+}
