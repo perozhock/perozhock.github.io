@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'phenomenaextrabold';
+    src: url('https://github.com/ajdance5/fontPicker/blob/master/fonts/phenomena/phenomena-extrabold-webfont.woff2') format('woff2'),
+         url('https://github.com/ajdance5/fontPicker/blob/master/fonts/phenomena/phenomena-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'phenomenalight';
+    src: url('https://github.com/ajdance5/fontPicker/blob/master/fonts/phenomena/phenomena-light-webfont.woff2') format('woff2'),
+         url('https://github.com/ajdance5/fontPicker/blob/master/fonts/phenomena/phenomena-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'phenomenaregular';
+    src: url('https://github.com/ajdance5/fontPicker/blob/master/fonts/phenomena/phenomena-regular-webfont.woff2') format('woff2'),
+         url('https://github.com/ajdance5/fontPicker/blob/master/fonts/phenomena/phenomena-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -5,17 +5,6 @@
 	outline: none;
 }
 
-@font-face{
-
-	font-family: Phenomena;
-	
-	src: url('../fonts/WebFont.woff') format('woff');
-	
-	font-weight: normal;
-	
-	font-style: normal;
-	
-	}
 
 html {height: 100%;}
 
@@ -25,7 +14,7 @@ body {
 	color: #333;
 	background: #f7f7f7;
 	font-size: 1em;
-	font-family: "Phenomena";
+	font-family: phenomenaregular;
 	line-height: 135%; /* gh */
 }
 
@@ -81,25 +70,25 @@ header {
 
 #logo {
 	font-size: 2em;
-	font-family: Phenomena ExtraBold, Thin;
+	font-family: phenomenaextrabold;
 }
 
 #contact {
 	font-size: 1.5em;
-	font-family: Phenomena light;
+	font-family: phenomenalight;
 	margin-left: 10px;
 }
 
 #copyr {
 	font-size: 1em;
-	font-family: Phenomena Thin;
+	font-family: phenomenaregular;
 	padding-bottom: 2%;
 }
 
 #year {
 	float: right;
 	font-size: 1em;
-	font-family: Phenomena;
+	font-family: phenomenaregular;
 	padding-bottom: 2%;
 }
 
@@ -110,7 +99,7 @@ header {
 }
 
 #kar a {
-	font-family: Phenomena Thin;
+	font-family: phenomenaregular;
 	font-size: 1.5em;
 }
 
@@ -128,7 +117,7 @@ input[type=text].field:focus {
 
 #menu {
 	color: #666;
-	font-family: Phenomena;
+	font-family: phenomenaregular;
 	font-size: 1.7em;
 }
 
@@ -145,7 +134,7 @@ input[type=text].field:focus {
 	border-radius: 5px;
 	margin-right: 5px;
 	margin-bottom: 5px;
-	font-family: Phenomena;
+	font-family: phenomenaregular;
 }
 
 #menuHrefs a:hover {background-color: #ececec}
@@ -153,13 +142,13 @@ input[type=text].field:focus {
 /* Основы */
 
 h1 {
-	font-family: Phenomena Light;
+	font-family: phenomenalight;
 	font-size: 1.5em;
 	margin-left: 10px;
 }
 
 h3 {
-	font-family: Phenomena ExtraBold;
+	font-family: phenomenaextrabold;
 	font-size: 2em;
 	margin-left: 10px;
 }
@@ -185,7 +174,7 @@ article {
 	background-color: #fafafa;
 	margin-right: 2%;
 	min-height: 400px;
-	font-family: Phenomena Thin;
+	font-family: phenomenaregular;
 }
 
 article img {
@@ -202,7 +191,7 @@ article h2 {
 	width: 30%;
 	display: block;
 	position: absolute;
-	font-family: Phenomena;
+	font-family: phenomenaregular;
 }
 
 /*кулькулятор */
@@ -219,7 +208,7 @@ article h2 {
 	cursor: pointer;
 	outline: none;
 	transition: all.9s ease;
-	font-family: Phenomena light;
+	font-family: phenomenalight;
 }
 
 .button:hover {
@@ -247,7 +236,7 @@ article h2 {
 	text-align: right;
 	font-size: 1.5em;
 	padding: 5px;
-	font-family: Phenomena light;
+	font-family: phenomenalight;
 }
 
 #calcul {
@@ -263,7 +252,7 @@ article h2 {
 	text-align: right;
 	font-size: 1em;
 	padding: 5px;
-	font-family: Phenomena light;
+	font-family: phenomenalight;
 }
 
 
