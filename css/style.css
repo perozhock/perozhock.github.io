@@ -5,7 +5,17 @@
 	outline: none;
 }
 
-@import url('https://github.com/ajdance5/fontPicker/tree/master/fonts/phenomena');
+@font-face{
+
+	font-family: 'Phenomena';
+	
+	src: url('../fonts/WebFont.woff') format('woff');
+	
+	font-weight: normal;
+	
+	font-style: normal;
+	
+	}
 
 html {height: 100%;}
 
