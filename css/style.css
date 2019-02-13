@@ -5,9 +5,7 @@
 	outline: none;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&subset=cyrillic');
-
-
+@import url('https://github.com/ajdance5/fontPicker/tree/master/fonts/phenomena');
 
 html {height: 100%;}
 
@@ -17,7 +15,7 @@ body {
 	color: #333;
 	background: #f7f7f7;
 	font-size: 1em;
-	font-family: "Open Sans Condensed", sans-serif;
+	font-family: "Phenomena";
 	line-height: 135%; /* gh */
 }
 
@@ -73,26 +71,25 @@ header {
 
 #logo {
 	font-size: 2em;
-	font-family: "Open Sans Condensed";
-	font-weight: 700;
+	font-family: Phenomena ExtraBold, Thin;
 }
 
 #contact {
 	font-size: 1.5em;
-	font-family: "Open Sans Condensed";
+	font-family: Phenomena light;
 	margin-left: 10px;
 }
 
 #copyr {
 	font-size: 1em;
-	font-family: "Open Sans Condensed";
+	font-family: Phenomena Thin;
 	padding-bottom: 2%;
 }
 
 #year {
 	float: right;
 	font-size: 1em;
-	font-family: "Open Sans Condensed";
+	font-family: Phenomena;
 	padding-bottom: 2%;
 }
 
@@ -103,7 +100,7 @@ header {
 }
 
 #kar a {
-	font-family: "Open Sans Condensed";
+	font-family: Phenomena Thin;
 	font-size: 1.5em;
 }
 
@@ -121,7 +118,7 @@ input[type=text].field:focus {
 
 #menu {
 	color: #666;
-	font-family: "Open Sans Condensed";
+	font-family: Phenomena;
 	font-size: 1.7em;
 }
 
@@ -138,7 +135,7 @@ input[type=text].field:focus {
 	border-radius: 5px;
 	margin-right: 5px;
 	margin-bottom: 5px;
-	font-family: "Open Sans Condensed";
+	font-family: Phenomena;
 }
 
 #menuHrefs a:hover {background-color: #ececec}
@@ -146,14 +143,13 @@ input[type=text].field:focus {
 /* Основы */
 
 h1 {
-	font-family: "Open Sans Condensed";
+	font-family: Phenomena Light;
 	font-size: 1.5em;
 	margin-left: 10px;
 }
 
 h3 {
-	font-family: "Open Sans Condensed";
-	font-weight: 700;
+	font-family: Phenomena ExtraBold;
 	font-size: 2em;
 	margin-left: 10px;
 }
@@ -179,7 +175,7 @@ article {
 	background-color: #fafafa;
 	margin-right: 2%;
 	min-height: 400px;
-	font-family: "Open Sans Condensed";
+	font-family: Phenomena Thin;
 }
 
 article img {
@@ -196,7 +192,7 @@ article h2 {
 	width: 30%;
 	display: block;
 	position: absolute;
-	font-family: "Open Sans Condensed";
+	font-family: Phenomena;
 }
 
 /*кулькулятор */
@@ -213,7 +209,7 @@ article h2 {
 	cursor: pointer;
 	outline: none;
 	transition: all.9s ease;
-	font-family: "Open Sans Condensed";
+	font-family: Phenomena light;
 }
 
 .button:hover {
@@ -241,7 +237,7 @@ article h2 {
 	text-align: right;
 	font-size: 1.5em;
 	padding: 5px;
-	font-family: "Open Sans Condensed";
+	font-family: Phenomena light;
 }
 
 #calcul {
@@ -257,7 +253,7 @@ article h2 {
 	text-align: right;
 	font-size: 1em;
 	padding: 5px;
-	font-family: "Open Sans Condensed";
+	font-family: Phenomena light;
 }
 
 
